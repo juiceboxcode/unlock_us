@@ -1,0 +1,5 @@
+appId: net.juicebox.unlockus
+copyright: Copyright © 2021 JuiceBox
+directories:
+  output: dist
+  buildResources: resources

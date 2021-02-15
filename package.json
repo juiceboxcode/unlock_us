@@ -1,0 +1,21 @@
+{
+  "name": "unlock_us",
+  "productName": "Unlock Us",
+  "version": "1.0.0",
+  "author": "JuiceBox",
+  "description": "Balancing Mod to Make Among Us Harder",
+  "main": "./src/main/index.ts",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder --win --x64 --ia32"
+  },
+  "devDependencies": {
+    "electron": "^11.2.3",
+    "electron-builder": "^22.9.1"
+  },
+  "dependencies": {
+    "path": "^0.12.7",
+    "url": "^0.11.0"
+  }
+}
